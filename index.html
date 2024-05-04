@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEMORY GAMES</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <div class="row">
+        <div class="card red hidden"></div>
+        <div class="card green hidden"></div>
+        <div class="card yellow hidden"></div>
+        <div class="card skyblue hidden"></div>
+      </div>
+      <div class="row">
+        <div class="card blue hidden"></div>
+        <div class="card brown hidden"></div>
+        <div class="card violet hidden"></div>
+        <div class="card orange hidden"></div>
+      </div>
+      <div class="row">
+        <div class="card red hidden"></div>
+        <div class="card green hidden"></div>
+        <div class="card yellow hidden"></div>
+        <div class="card skyblue hidden"></div>
+      </div>
+      <div class="row">
+        <div class="card blue hidden"></div>
+        <div class="card brown hidden"></div>
+        <div class="card violet hidden"></div>
+        <div class="card orange hidden"></div>
+      </div>
+      <div id="timer" style="text-align: center; font-size: 2rem;">00:00</div>
+    
+      <div id="startBtnContainer" style="text-align: center; margin-top: 10px;">
+        <button id="startBtn" style="color: white; background-color: #4CAF50; border: none; padding: 10px 20px; cursor: pointer;">Start Game</button>
+      </div>
+    
+      <div id="message" style="display: none; text-align: center; color: rgb(220,20,60); margin-top: 20px;"></div>
+      <br>
+    
+      <div id="points" style="font-size: 2rem;text-align: center;"></div>
+    
+      <div class="centered">
+        <button id="pauseBtn" onclick="pauseGame()" style="display: none; color: white; background-color: #4CAF50; padding: 10px 20px; cursor: pointer;"><b>Pause</b></button>
+        <button id="continueBtn" onclick="Continue()" style="display: none; color: white; background-color: #4CAF50; padding: 10px 20px; cursor: pointer;"><b>Continue</b></button>
+      </div>
+    
+      <div class="centered">
+        <button id="restartBtn" onclick="restartGame()" style="display: none; color: white; background-color: #4CAF50; padding: 10px 20px; cursor: pointer;"><b>Restart</b></button>
+      </div>
+    
+     
+   <script src="index.js">         </script>
+</body>
+</html>
